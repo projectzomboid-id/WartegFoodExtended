@@ -7,7 +7,7 @@ module WartegFoodExtended
 
 	recipe Open Box of MieSedaap Goreng
     {
-       MieSedaap_Goreng_Box,
+       MieSedaap_Goreng_Boxed,
        Result:MieSedaap_Goreng=10,
        CanBeDoneFromFloor:false,
        Time:70.0,
