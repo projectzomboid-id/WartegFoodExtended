@@ -1,0 +1,39 @@
+module WartegFoodExtended
+{	
+    imports
+	{
+		Base,
+	}
+
+	recipe Open Box of MieSedaap Goreng
+    {
+       MieSedaap_Goreng_Box,
+       Result:MieSedaap_Goreng=10,
+       CanBeDoneFromFloor:false,
+       Time:70.0,
+       Sound:OpenBox,
+    }
+
+    recipe Put MieSedaap Goreng into Saucepan
+	{
+		MieSedaap_Goreng,
+		destroy WaterSaucepan,
+		Result : MieSedaap_Goreng_Saucepan,
+		Time : 200,
+		Category : Cooking,
+		Sound : OpenPlasticPackage,
+		OnGiveXP : Recipe.OnGiveXP.Cooking3,
+		CanBeDoneFromFloor: true,
+	}
+
+	recipe Make Bowl of MieSedaap Goreng
+	{
+		MieSedaap_Goreng_Saucepan_Cooked,
+		Bowl=1,
+		Result : MieSedaap_Goreng_Bowl=1,
+		OnCreate : Recipe.OnCreate.WFE_MakeBowlMieSedaap,
+		Time : 80.0,
+		Category : Cooking,
+		OnGiveXP : Recipe.OnGiveXP.None,
+	}
+}

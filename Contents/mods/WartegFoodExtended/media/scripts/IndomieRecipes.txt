@@ -1,0 +1,39 @@
+module WartegFoodExtended
+{	
+    imports
+	{
+		Base,
+	}
+
+	recipe Open Box of Indomie Original
+    {
+       Indomie_Original_Boxed,
+       Result:Indomie_Original=10,
+       CanBeDoneFromFloor:false,
+       Time:70.0,
+       Sound:OpenBox,
+    }
+
+    recipe Put Indomie Original into Saucepan
+	{
+		Indomie_Original,
+		destroy WaterSaucepan,
+		Result : Indomie_Original_Saucepan,
+		Time : 200,
+		Category : Cooking,
+		Sound : OpenPlasticPackage,
+		OnGiveXP : Recipe.OnGiveXP.Cooking3,
+		CanBeDoneFromFloor: true,
+	}
+
+	recipe Make Bowl of Indomie Original
+	{
+		Indomie_Original_Saucepan_Cooked,
+		Bowl=1,
+		Result : Indomie_Original_Bowl=1,
+		OnCreate : Recipe.OnCreate.WFE_MakeBowlIndomie,
+		Time : 80.0,
+		Category : Cooking,
+		OnGiveXP : Recipe.OnGiveXP.None,
+	}
+}

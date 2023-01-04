@@ -1,0 +1,87 @@
+module WartegFoodExtended
+{	
+	imports
+	{
+		Base,
+	}
+
+	item MieSedaap_Goreng_Boxed
+	{
+		DisplayCategory = Container,
+		Weight = 4.0,
+		Icon = MieSedaapBox,
+		DisplayName	= Box of MieSedaap Goreng,
+		WorldStaticModel = MieSedaap_Box,
+	}	
+
+	item MieSedaap_Goreng
+	{
+		Weight = 0.2,	
+		DisplayCategory = Food,
+		DisplayName = MieSedaap Goreng,
+		Icon = MieSedaap,
+		WorldStaticModel = MieSedaap,
+	}	
+
+	item MieSedaap_Goreng_Saucepan
+	{
+		DisplayCategory	= Food,
+		Type = Food,
+		DisplayName = Saucepan with MieSedaap Goreng,
+		Icon = SaucepanwithMieSedaap,
+		Weight = 0.3,
+		ReplaceOnUse = Saucepan,
+		FoodType = Noodle,
+		BadInMicrowave = true,
+		GoodHot = true,
+		CookingSound = BoilingFood,
+		IsCookable = TRUE,
+		DangerousUncooked = TRUE,
+		MinutesToCook = 10,
+		MinutesToBurn = 150,
+		EatType = 2hand,
+		ReplaceOnCooked = WartegFoodExtended.MieSedaap_Goreng_Saucepan_Cooked,
+		WorldStaticModel = WaterSaucepanPasta,
+	}
+
+	item MieSedaap_Goreng_Saucepan_Cooked
+	{
+		DisplayCategory	= Food,
+		Type = Food,
+		DisplayName = Saucepan with Cooked MieSedaap Goreng,
+		Icon = SaucepanwithMieSedaap,
+		Weight = 0.3,
+		ReplaceOnUse = Saucepan,
+		FoodType = Noodle,
+		EatType = 2hand,
+		WorldStaticModel = WaterSaucepanPasta,
+	}
+
+	item MieSedaap_Goreng_Bowl
+	{
+		DisplayCategory	= Food,
+		Type = Food,
+		DisplayName = Bowl of MieSedaap Goreng,
+		Icon = BowlMieSedaapGoreng,
+		Weight = 0.3,
+		ReplaceOnUse = Bowl,
+
+		FoodType = Noodle,
+		GoodHot = true,
+
+		HungerChange = -15,
+		UnhappyChange = -50,
+		ThirstChange = -10,
+		DaysTotallyRotten = 6,
+		Carbohydrates = 99,
+		Proteins = 17.7,
+		Lipids = 6.66,
+		Calories = 532,
+		DaysFresh = 4,
+
+		StaticModel = BowlIndomieHand,
+		WorldStaticModel = BowlIndomie,
+
+		EatType = 2hand,
+	}
+}

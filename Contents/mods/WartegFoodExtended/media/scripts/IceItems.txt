@@ -1,0 +1,44 @@
+module WartegFoodExtended
+{	
+	imports
+	{
+		Base,
+	}
+
+	item IceBag
+	{
+		DisplayName = Es Batu,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 1,
+		Icon = IceBag,
+		IsCookable = false,
+		ReplaceOnRotten = IceBagMelted,
+		DaysFresh = 1,
+		DaysTotallyRotten = 999,
+		HungerChange = 0,
+		UnhappyChange 0,
+		Calories = 0,
+		Carbohydrates = 0,
+		Lipids = 84,
+		Proteins = 0,
+		WorldStaticModel = IceBag,
+	}
+
+	item IceBagMelted
+	{
+		DisplayName = Melted Es Batu,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 1,
+		IsCookable = false,
+		CantBeFrozen = TRUE,
+		Icon = IceBag,
+		HungerChange = 0,
+		Calories = 0,
+		Carbohydrates = 0,
+		Lipids = 0,
+		Proteins = 0,
+		WorldStaticModel = IceBag,
+	}
+}
