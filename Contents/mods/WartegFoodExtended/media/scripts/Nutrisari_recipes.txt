@@ -1,0 +1,19 @@
+module WartegFoodExtended
+{	
+    imports
+	{
+		Base,
+	}
+
+	recipe Mix Nutrisari Drink
+	{
+		Nutrisari,
+		destroy WaterBottleFull/WaterPopBottle,
+		Result 		: BottleofNutrisari,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: BottleShake,
+		Prop2:Source=2,
+	}
+}

@@ -1,0 +1,28 @@
+module WartegFoodExtended
+{	
+    imports
+	{
+		Base,
+	}
+
+    model Nutrisari
+	{
+		mesh = Worlditems/Sachet,
+		texture = Worlditems/Nutrisari,
+		scale = 0.0045,
+	}
+
+    model BottleNutrisari
+	{
+		mesh = Worlditems/EmptyBottle,
+		texture = Worlditems/WaterBottleOrangemix,
+		scale = 0.0045,
+	}
+
+    model H_BottleNutrisari
+	{
+		mesh = Worlditems/H_EmptyBottle,
+		texture = Worlditems/WaterBottleOrangemix,
+		scale = 0.0045,
+	}
+}

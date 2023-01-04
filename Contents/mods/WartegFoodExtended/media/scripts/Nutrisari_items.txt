@@ -1,0 +1,51 @@
+module WartegFoodExtended
+{	
+	imports
+	{
+		Base,
+	}
+
+	item Nutrisari
+	{
+		Type 		= Food,
+		Weight 		= 0.05,
+		DisplayName 		= Nutrisari Sachet,
+		Icon 		= Nutrisari,
+		WorldStaticModel 		= Nutrisari,
+		DisplayCategory 		= Food,
+		CannedFood 		= true,
+		Packaged 		= true,
+		Calories 		= 15,
+		Carbohydrates 		= 5,
+		Proteins 		= 13,
+		Lipids 		= 4,
+		ThirstChange 		= 30,
+		HungerChange 		= -10,
+	}
+
+    item BottleofNutrisari
+	{
+		DisplayCategory 		= Food,
+		HungerChange 		= -10,
+		Weight 		= 1.0,
+		Type 		= Food,
+		ThirstChange 		= -65,
+		DisplayName 		= Bottle of Nutrisari,
+		Icon 		= BottlewithNutrisari,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromCarton,
+		FoodType 		= NoExplicit,
+		Carbohydrates 		= 5,
+		Proteins 		= 40,
+		Lipids 		= 2.5,
+		Calories 		= 18,
+		Packaged 		= TRUE,
+		CantBeFrozen 		= TRUE,
+		StaticModel 		= H_BottleNutrisari,
+		WorldStaticModel 		= BottleNutrisari,
+		UnhappyChange 		= -5,
+		BoredomChange 		= -5,
+		ReplaceOnUse 		= WaterBottleEmpty,
+	}
+
+}
