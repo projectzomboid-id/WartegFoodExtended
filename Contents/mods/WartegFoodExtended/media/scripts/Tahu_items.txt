@@ -25,7 +25,6 @@ module WartegFoodExtended
 		Lipids = 6,
 		Proteins = 10.9,
 		WorldStaticModel = Tahu,
-		Tags = Tahu,
 	}
 
 }
