@@ -1,0 +1,31 @@
+module WartegFoodExtended
+{	
+	imports
+	{
+		Base,
+	}
+
+	item Tahu
+	{
+		DisplayName = Tahu,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = Tahu,
+		EvolvedRecipe = Sandwich:2,
+		FoodType = NoExplicit,
+		Packaged = TRUE,
+		DaysFresh = 6,
+		DaysTotallyRotten = 10,
+		HungerChange = -6,
+        ThirstChange = -1,
+        UnhappyChange = -2,
+		Calories = 70,
+		Carbohydrates = 0.8,
+		Lipids = 6,
+		Proteins = 10.9,
+		WorldStaticModel = Tahu,
+		Tags = Tahu,
+	}
+
+}

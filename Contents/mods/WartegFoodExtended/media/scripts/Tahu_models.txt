@@ -1,0 +1,14 @@
+module WartegFoodExtended
+{	
+    imports
+	{
+		Base,
+	}
+
+    model Tahu
+	{
+		mesh = Worlditems/Sachet,
+		texture = Worlditems/Nutrisari,
+		scale = 0.0045,
+	}
+}
