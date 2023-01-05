@@ -5,13 +5,13 @@ module WartegFoodExtended
 		Base,
 	}
 
-	item Tahu
+	item Tempe
 	{
-		DisplayName = Tahu,
+		DisplayName = Tempe,
 		DisplayCategory = Food,
 		Type = Food,
 		Weight = 0.1,
-		Icon = Tahu,
+		Icon = Tempe,
 		EvolvedRecipe = Sandwich:2,
 		FoodType = NoExplicit,
 		Packaged = TRUE,
@@ -24,7 +24,7 @@ module WartegFoodExtended
 		Carbohydrates = 0.8,
 		Lipids = 6,
 		Proteins = 10.9,
-		WorldStaticModel = Tahu,
+		WorldStaticModel = Tempe,
 	}
 
 }
