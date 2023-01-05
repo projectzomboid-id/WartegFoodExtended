@@ -48,23 +48,4 @@ module WartegFoodExtended
 		ReplaceOnUse 		= WaterBottleEmpty,
 	}
 
-	item Nurdin
-	{
-		DisplayCategory 		= Food,
-		Weight 		= 0.5,
-		Type 		= Food,
-		DisplayName 		= Mug of Nurdin,
-		CustomEatSound 		= PZ_DrinkingFromBottle,
-		Icon 		= Mugl,
-		ThirstChange 		= -20,
-		HungerChange 		= -10,
-		FatigueChange 		= -10,
-		UnhappyChange 		= 10,
-		ReplaceOnUse 		= Mugl,
-		CustomContextMenu 		= Drink,
-		CustomEatSound 		= DrinkingFromMug,
-		GoodHot 		= false,
-		StaticModel 		= Mug,
-		WorldStaticModel 		= Mug,
-	}
 }

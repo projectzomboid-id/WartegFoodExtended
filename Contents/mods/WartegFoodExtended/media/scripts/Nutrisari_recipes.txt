@@ -8,6 +8,7 @@ module WartegFoodExtended
 	recipe Mix Nutrisari Drink
 	{
 		Nutrisari,
+		WartegFoodExtended.IceBag,
 		destroy WaterBottleFull/WaterPopBottle,
 		Result 		: BottleofNutrisari,
 		Time 		: 80.0,
@@ -16,17 +17,4 @@ module WartegFoodExtended
 		Sound 		: BottleShake,
 		Prop2:Source=2,
 	}
-
-	recipe Make Nurdin
-	{
-		Nutrisari,
-		IceBag,
-		Water=1,
-		destroy Mug,
-		Result 		: Nurdin,
-		Time 		: 80.0,
-		Category 		: Cooking,
-		OnGiveXP 		: Recipe.OnGiveXP.None,
-		Sound 		: BottleShake,
-	}	
 }
