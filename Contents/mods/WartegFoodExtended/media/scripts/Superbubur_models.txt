@@ -1,0 +1,35 @@
+module WartegFoodExtended
+{	
+    imports
+	{
+		Base,
+	}
+
+    model Superbubur_Box
+	{
+		mesh = WorldItems/CardboardBox,
+		texture = WorldItems/SuperbuburBox,
+		scale = 1.0,
+	}
+
+    model Superbubur
+	{
+		mesh = WorldItems/Indomie,
+		texture = WorldItems/Superbubur,
+		scale = 0.1,
+	}
+
+	model BowlSuperbubur
+	{
+		mesh = Worlditems/BowlFood,
+		texture = Worlditems/BowlSuperbubur,
+		scale = 0.0045,
+	}
+
+	model BowlSuperbuburHand
+	{
+		mesh = Worlditems/BowlFoodHand,
+		texture = Worlditems/BowlSuperbubur,
+		scale = 0.0045,
+	}
+}

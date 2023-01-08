@@ -1,0 +1,39 @@
+module WartegFoodExtended
+{	
+    imports
+	{
+		Base,
+	}
+
+	recipe Open Box of Superbubur
+    {
+       Superbubur_Boxed,
+       Result:Superbubur=10,
+       CanBeDoneFromFloor:false,
+       Time:70.0,
+       Sound:OpenBox,
+    }
+
+    recipe Put Superbubur into Saucepan
+	{
+		Superbubur,
+		destroy WaterSaucepan,
+		Result : Superbubur_Saucepan,
+		Time : 200,
+		Category : Cooking,
+		Sound : OpenPlasticPackage,
+		OnGiveXP : Recipe.OnGiveXP.Cooking3,
+		CanBeDoneFromFloor: true,
+	}
+
+	recipe Make Bowl of Superbubur
+	{
+		Superbubur_Saucepan_Cooked,
+		Bowl=1,
+		Result : Superbubur_Bowl=1,
+		OnCreate : Recipe.OnCreate.WFE_MakeBowlSuperbubur,
+		Time : 80.0,
+		Category : Cooking,
+		OnGiveXP : Recipe.OnGiveXP.None,
+	}
+}

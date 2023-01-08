@@ -9,10 +9,16 @@ table.insert(SuburbsDistributions["all"]["inventorymale"].items, "WartegFoodExte
 table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.01);
 table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "WartegFoodExtended.MieSedaap_Goreng");
 table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
+table.insert(SuburbsDistributions["all"]["inventorymale"].items, "WartegFoodExtended.Superbubur");
+table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.01);
+table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "WartegFoodExtended.Superbubur");
+table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
 
 table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, "WartegFoodExtended.Indomie_Original");
 table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, 1);
 table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, "WartegFoodExtended.MieSedaap_Goreng");
+table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, 1);
+table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, "WartegFoodExtended.Superbubur");
 table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, 1);
 
 table.insert(ProceduralDistributions["list"]["DishCabinetGeneric"].items, "WartegFoodExtended.Indomie_Original");
@@ -55,4 +61,25 @@ table.insert(ProceduralDistributions["list"]["GigamartCannedFood"].items, 1);
 table.insert(ProceduralDistributions["list"]["KitchenCannedFood"].items, "WartegFoodExtended.MieSedaap_Goreng");
 table.insert(ProceduralDistributions["list"]["KitchenCannedFood"].items, 2);
 table.insert(ProceduralDistributions["list"]["CrateDishes"].items, "WartegFoodExtended.MieSedaap_Goreng");
+table.insert(ProceduralDistributions["list"]["CrateDishes"].items, 1);
+
+table.insert(ProceduralDistributions["list"]["DishCabinetGeneric"].items, "WartegFoodExtended.Superbubur");
+table.insert(ProceduralDistributions["list"]["DishCabinetGeneric"].items, 1);
+table.insert(ProceduralDistributions["list"]["KitchenDryFood"].items, "WartegFoodExtended.Superbubur");
+table.insert(ProceduralDistributions["list"]["KitchenDryFood"].items, 2);
+table.insert(ProceduralDistributions["list"]["GigamartDryGoods"].items, "WartegFoodExtended.Superbubur");
+table.insert(ProceduralDistributions["list"]["GigamartDryGoods"].items, 1);
+table.insert(ProceduralDistributions["list"]["CrateRice"].items, "WartegFoodExtended.Superbubur");
+table.insert(ProceduralDistributions["list"]["CrateRice"].items, 1);
+table.insert(ProceduralDistributions["list"]["GasStorageCombo"].items, "WartegFoodExtended.Superbubur");
+table.insert(ProceduralDistributions["list"]["GasStorageCombo"].items, 2);
+table.insert(ProceduralDistributions["list"]["StoreShelfCombo"].items, "WartegFoodExtended.Superbubur");
+table.insert(ProceduralDistributions["list"]["StoreShelfCombo"].items, 2);
+table.insert(ProceduralDistributions["list"]["StoreKitchenPots"].items, "WartegFoodExtended.Superbubur");
+table.insert(ProceduralDistributions["list"]["StoreKitchenPots"].items, 1);
+table.insert(ProceduralDistributions["list"]["GigamartCannedFood"].items, "WartegFoodExtended.Superbubur");
+table.insert(ProceduralDistributions["list"]["GigamartCannedFood"].items, 1);
+table.insert(ProceduralDistributions["list"]["KitchenCannedFood"].items, "WartegFoodExtended.Superbubur");
+table.insert(ProceduralDistributions["list"]["KitchenCannedFood"].items, 2);
+table.insert(ProceduralDistributions["list"]["CrateDishes"].items, "WartegFoodExtended.Superbubur");
 table.insert(ProceduralDistributions["list"]["CrateDishes"].items, 1);
