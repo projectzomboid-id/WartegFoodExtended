@@ -9,7 +9,7 @@ WartegFoodExtended is a mod for Project Zomboid which adds several Indonesian fo
 
 ## Steamworkshop
 Important Link
--Subscribe to Steam Workshop [Click Here](https://steamcommunity.com/sharedfiles/filedetails/?id=2873240250)
--Mod detail changelog [Click Here](https://steamcommunity.com/sharedfiles/filedetails/changelog/2873240250)
--Let us know if you found a bug [Click Here](https://steamcommunity.com/sharedfiles/filedetails/discussions/2873240250)
--Detailed item list [Click Here](https://github.com/projectzomboid-id/WartegFoodExtended/wiki/Warteg-Food-Extended-Item-List)
+- Subscribe to Steam Workshop [Click Here](https://steamcommunity.com/sharedfiles/filedetails/?id=2873240250)
+- Mod detail changelog [Click Here](https://steamcommunity.com/sharedfiles/filedetails/changelog/2873240250)
+- Let us know if you found a bug [Click Here](https://steamcommunity.com/sharedfiles/filedetails/discussions/2873240250)
+- Detailed item list [Click Here](https://github.com/projectzomboid-id/WartegFoodExtended/wiki/Warteg-Food-Extended-Item-List)
