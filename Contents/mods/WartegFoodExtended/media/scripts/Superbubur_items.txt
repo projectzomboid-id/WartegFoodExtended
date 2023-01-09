@@ -9,7 +9,7 @@ module WartegFoodExtended
 	{
 		DisplayCategory = Container,
 		Weight = 3.0,
-		Icon = SuperbuburBox,
+		Icon = Superbubur_Box,
 		DisplayName	= Box of Superbubur,
 		WorldStaticModel = Superbubur_Box,
 	}	

@@ -7,8 +7,8 @@ module WartegFoodExtended
 
     model Tahu
 	{
-		mesh = Worlditems/Sachet,
-		texture = Worlditems/Nutrisari,
+		mesh = Worlditems/Tahu,
+		texture = Worlditems/Tahu,
 		scale = 0.0045,
 	}
 }

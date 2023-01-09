@@ -1,0 +1,31 @@
+module WartegFoodExtended
+{	
+	imports
+	{
+		Base,
+	}
+
+	item Tehkotak
+	{
+		DisplayName = Teh Kotak,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = Tehkotak,
+		EvolvedRecipe = Beverage:2;Beverage2:2,
+		FoodType = Juice,
+		Packaged = TRUE,
+		HungerChange = -2,
+		ThirstChange = -25,
+		UnhappyChange = -10,
+		Calories = 60,
+		Carbohydrates = 14,
+		Lipids = 0,
+		Proteins = 0,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromCarton,
+		WorldStaticModel = TehKotak,
+		EvolvedRecipeName = Tehkotak,
+	}
+
+}

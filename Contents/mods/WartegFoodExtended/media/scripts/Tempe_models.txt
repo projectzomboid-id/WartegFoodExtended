@@ -7,8 +7,8 @@ module WartegFoodExtended
 
     model Tempe
 	{
-		mesh = Worlditems/Sachet,
-		texture = Worlditems/Nutrisari,
+		mesh = Worlditems/Tempe,
+		texture = Worlditems/Tempe,
 		scale = 0.0045,
 	}
 }

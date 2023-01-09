@@ -1,0 +1,14 @@
+module WartegFoodExtended
+{	
+    imports
+	{
+		Base,
+	}
+
+    model TehKotak
+	{
+		mesh = WorldItems/TehKotak,
+		texture = WorldItems/TehKotak,
+		scale = 0.0042,
+	}
+}

@@ -83,3 +83,52 @@ table.insert(ProceduralDistributions["list"]["KitchenCannedFood"].items, "Warteg
 table.insert(ProceduralDistributions["list"]["KitchenCannedFood"].items, 2);
 table.insert(ProceduralDistributions["list"]["CrateDishes"].items, "WartegFoodExtended.Superbubur");
 table.insert(ProceduralDistributions["list"]["CrateDishes"].items, 1);
+
+table.insert(ProceduralDistributions["list"]["DishCabinetGeneric"].items, "WartegFoodExtended.Nutrisari");
+table.insert(ProceduralDistributions["list"]["DishCabinetGeneric"].items, 2);
+table.insert(ProceduralDistributions["list"]["KitchenDryFood"].items, "WartegFoodExtended.Nutrisari");
+table.insert(ProceduralDistributions["list"]["KitchenDryFood"].items, 2);
+table.insert(ProceduralDistributions["list"]["GigamartDryGoods"].items, "WartegFoodExtended.Nutrisari");
+table.insert(ProceduralDistributions["list"]["GigamartDryGoods"].items, 4);
+table.insert(ProceduralDistributions["list"]["DishCabinetGeneric"].items, "WartegFoodExtended.Nutrisari");
+table.insert(ProceduralDistributions["list"]["DishCabinetGeneric"].items, 4);
+
+table.insert(ProceduralDistributions["list"]["FreezerGeneric"].items, "WartegFoodExtended.Tahu");
+table.insert(ProceduralDistributions["list"]["FreezerGeneric"].items, 2);
+table.insert(ProceduralDistributions["list"]["FreezerGeneric"].items, "WartegFoodExtended.Tempe");
+table.insert(ProceduralDistributions["list"]["FreezerGeneric"].items, 2);
+table.insert(ProceduralDistributions["list"]["FridgeRich"].items, "WartegFoodExtended.Tempe");
+table.insert(ProceduralDistributions["list"]["FridgeRich"].items, 2);
+table.insert(ProceduralDistributions["list"]["FridgeRich"].items, "WartegFoodExtended.Tahu");
+table.insert(ProceduralDistributions["list"]["FridgeRich"].items, 2);
+
+
+table.insert(ProceduralDistributions["list"]["FridgeGeneric"].items, "WartegFoodExtended.Tehkotak");
+table.insert(ProceduralDistributions["list"]["FridgeGeneric"].items, 2);
+table.insert(ProceduralDistributions["list"]["FridgeRich"].items, "WartegFoodExtended.Tehkotak");
+table.insert(ProceduralDistributions["list"]["FridgeRich"].items, 2);
+table.insert(ProceduralDistributions["list"]["FridgeTrailerPark"].items, "WartegFoodExtended.Tehkotak");
+table.insert(ProceduralDistributions["list"]["FridgeTrailerPark"].items, 2);
+table.insert(ProceduralDistributions["list"]["FridgeBreakRoom"].items, "WartegFoodExtended.Tehkotak");
+table.insert(ProceduralDistributions["list"]["FridgeBreakRoom"].items, 2);
+table.insert(ProceduralDistributions["list"]["FridgeOther"].items, "WartegFoodExtended.Tehkotak");
+table.insert(ProceduralDistributions["list"]["FridgeOther"].items, 4);
+table.insert(ProceduralDistributions["list"]["BandPracticeFridge"].items, "WartegFoodExtended.Tehkotak");
+table.insert(ProceduralDistributions["list"]["BandPracticeFridge"].items, 6);
+
+table.insert(ProceduralDistributions["list"]["CrateSodaCans"].items, "WartegFoodExtended.BottleofNutrisari");
+table.insert(ProceduralDistributions["list"]["CrateSodaCans"].items, 10);
+table.insert(ProceduralDistributions["list"]["FridgeSoda"].items, "WartegFoodExtended.BottleofNutrisari");
+table.insert(ProceduralDistributions["list"]["FridgeSoda"].items, 10);
+table.insert(ProceduralDistributions["list"]["GasStorageCombo"].items, "WartegFoodExtended.Nutrisari");
+table.insert(ProceduralDistributions["list"]["GasStorageCombo"].items, 4);
+table.insert(ProceduralDistributions["list"]["KitchenBottles"].items, "WartegFoodExtended.BottleofNutrisari");
+table.insert(ProceduralDistributions["list"]["KitchenBottles"].items, 2);
+
+table.insert(ProceduralDistributions["list"]["StoreShelfCombo"].items, "WartegFoodExtended.BottleofNutrisari");
+table.insert(ProceduralDistributions["list"]["StoreShelfCombo"].items, 6);
+
+table.insert(ProceduralDistributions["list"]["KitchenCannedFood"].items, "WartegFoodExtended.Tehkotak");
+table.insert(ProceduralDistributions["list"]["KitchenCannedFood"].items, 4);
+
+
