@@ -1,0 +1,14 @@
+module WartegFoodExtended
+{	
+    imports
+	{
+		Base,
+	}
+
+    model Ultramilk
+	{
+		mesh = WorldItems/Ultramilk,
+		texture = WorldItems/Ultramilk,
+		scale = 0.0042,
+	}
+}

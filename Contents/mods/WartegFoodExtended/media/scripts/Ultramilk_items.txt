@@ -1,0 +1,31 @@
+module WartegFoodExtended
+{	
+	imports
+	{
+		Base,
+	}
+
+	item Ultramilk
+	{
+		DisplayName = Ultramilk Coklat,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = Ultramilk,
+		EvolvedRecipe = Beverage:2;Beverage2:2,
+		FoodType = Juice,
+		Packaged = TRUE,
+		HungerChange = -2,
+		ThirstChange = -35,
+		UnhappyChange = -12,
+		Calories = 60,
+		Carbohydrates = 14,
+		Lipids = 0,
+		Proteins = 25,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromCarton,
+		WorldStaticModel = Ultramilk,
+		EvolvedRecipeName = Ultramilk,
+	}
+
+}
