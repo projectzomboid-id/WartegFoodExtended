@@ -36,4 +36,18 @@ module WartegFoodExtended
 		Category : Cooking,
 		OnGiveXP : Recipe.OnGiveXP.None,
 	}
+
+	recipe Mix Superbubur with Water
+	{
+		Superbubur,
+		Bowl=1,
+		Water=3,
+		keep Scissor,
+		keep Spatula/Spoon/Fork/ButterKnife/PlasticSpork/WoodenSpoon,
+		Result : Superbubur_Bowl=1,
+		OnCreate : Recipe.OnCreate.WFE_MakeBowlSuperbubur,
+		Time : 100.0,
+		Category : Cooking,
+		OnGiveXP : Recipe.OnGiveXP.None,
+	}
 }
